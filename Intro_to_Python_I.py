@@ -58,10 +58,8 @@ def avg(x,y):
 
 # %%
 def combine(x,y):
-  # Calls both triple(y) and avg(x,y) as required.
-  t = triple(y)
-  a = avg(x, y)
-  return t + a
+  # Returns avg(x, triple(y)) — calls both triple(y) and avg(x,y).
+  return avg(x, triple(y))
 
 # %% [markdown]
 # **Problem 4**
@@ -118,8 +116,8 @@ def indicator(lower,upper,n):
 
 # %%
 def trunc_max(x,y):
-  # Returns x if x <= y, otherwise returns y (truncates x at a maximum of y).
-  if x <= y:
+  # Returns the larger of x and y (truncates x from below at y).
+  if x >= y:
     return x
   else:
     return y
