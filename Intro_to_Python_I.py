@@ -116,11 +116,17 @@ def indicator(lower,upper,n):
 
 # %%
 def trunc_max(x,y):
-  # Returns the larger of x and y (truncates x from below at y).
+  # Returns the larger of x and y if at least one is positive, otherwise returns 0.
   if x >= y:
-    return x
+    if x > 0:
+      return x
+    else:
+      return 0
   else:
-    return y
+    if y > 0:
+      return y
+    else:
+      return 0
 
 # %% [markdown]
 # **STOP!  BEFORE YOU SUBMIT THIS LAB:**  Go to the "Runtime" menu at the top of this page, and select "Restart and run all".  If any of the cells produce error messages, you will either need to fix the error(s) or delete the code that is causing the error(s).  Then use "Restart and run all" again to see if there are any new errors.  Repeat this until no new error messages show up.  
