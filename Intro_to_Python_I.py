@@ -36,7 +36,7 @@ BYUNetID="mbgardin"
 # **Problem 1**
 
 # %%
-my_first_var = ((3 + 5) * 2 - 4) / 3   # Replace with the required expression from Problem 1.
+my_first_var = (3 + 7) * (6 - 2) / 2   # Uses +, -, *, / with parentheses; evaluates to 20.
 
 # %% [markdown]
 # **Problem 2**
