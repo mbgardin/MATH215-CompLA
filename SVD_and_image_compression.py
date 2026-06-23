@@ -173,4 +173,3 @@ relative_size = rank_100_size / original_size
 # %% [markdown]
 # To submit your lab for grading you must first download it to your compute as .py file. In the "File" menu select "Download .py". The resulting file can then be uploaded to [gradescope.com](https://gradescope.com) for grading.
 
-
