@@ -6,44 +6,65 @@ Welcome to my repository for **MATH215: Computational Linear Algebra** at Brigha
 
 This repository serves as a portfolio of my work, showcasing my ability to solve complex mathematical problems, build functional algorithms from scratch, and apply linear algebra principles in a practical setting.
 
-## 🚀 Projects Overview
+## 🚀 Labs Overview
 ---
 
-Throughout the course, I developed several comprehensive projects that highlight different domains of computational mathematics:
+Throughout the course, I completed several comprehensive labs that explore different concepts of computational mathematics. Each lab is provided as both a Jupyter Notebook (`.ipynb`) with step-by-step explanations and a standalone Python script (`.py`).
 
-### [Project 1: Matrix Factorizations & Linear Systems](./LU_decompositions.ipynb)
+### [Lab: Intro to Python I](./Intro_to_Python_I.ipynb)
 
-- **Description:** Implemented LU and QR decompositions from scratch. Designed algorithms for the Gram-Schmidt orthogonalization process and utilized them to construct numerically stable linear system solvers. 
-- **Skills:** Matrix factorizations (LU, QR), Gram-Schmidt orthogonalization, Algorithm design.
+- **Description:** Covered foundational Python structures, control flow, functions, and vectorized operations using NumPy arrays for high-performance matrix computations.
+- **Skills:** Python fundamentals, Array manipulation.
 
-### [Project 2: Iterative Methods & Stability](./Iterative_methods.ipynb)
+### [Lab: Intro to Python II](./Intro_to_Python_II.ipynb)
 
-- **Description:** Built Jacobi and Gauss-Seidel iterative solvers for sparse matrices where direct methods are computationally unfeasible. Explored machine precision, catastrophic cancellation, and numerical instability limits in floating-point arithmetic.
-- **Skills:** Iterative methods, Numerical stability analysis, Error visualization.
+- **Description:** Advanced NumPy usage, covering matrix creation, complex slicing, broadcasting, and algorithmic problem-solving.
+- **Skills:** Advanced NumPy, Matrix operations.
 
-### [Project 3: Principal Component Analysis (PCA)](./Principal_component_analysis.ipynb)
+### [Lab: Plotting, Iteration, and Roundoff Error](./Plotting_iteration_roundoff.ipynb)
 
-- **Description:** Performed dimensionality reduction on high-dimensional healthcare datasets. Constructed covariance matrices, calculated dominant eigenvectors, and projected data into 2D subspaces to maximize variance and predict outcomes.
+- **Description:** Explored machine precision, catastrophic cancellation, and numerical instability limits in floating-point arithmetic. Visualized convergence rates of iterative processes.
+- **Skills:** Matplotlib visualization, Numerical stability analysis, Error tracking.
+
+### [Lab: Linear Transformations](./Linear_transformations.ipynb)
+
+- **Description:** Visualized 2D and 3D linear transformations. Applied transformation matrices to manipulate geometric data structures mathematically.
+- **Skills:** Geometric transformations, Matrix multiplication, Data visualization.
+
+### [Lab: LU Decompositions](./LU_decompositions.ipynb)
+
+- **Description:** Implemented LU decomposition from scratch and applied it with forward/backward substitution to efficiently solve systems of linear equations without computing expensive inverses.
+- **Skills:** LU factorization, System solving, Algorithmic efficiency.
+
+### [Lab: Iterative Methods](./Iterative_methods.ipynb)
+
+- **Description:** Built Jacobi and Gauss-Seidel iterative solvers for sparse matrices where direct methods are computationally unfeasible.
+- **Skills:** Iterative solvers (Jacobi, Gauss-Seidel), Sparse matrices, Convergence analysis.
+
+### [Lab: Least Squares I](./Least_squares_I.ipynb)
+
+- **Description:** Developed linear regression models by solving normal equations to find the line of best fit for scattered datasets.
+- **Skills:** Linear regression, Normal equations, Curve fitting.
+
+### [Lab: Gram-Schmidt and QR](./Gram_Schmidt_and_QR.ipynb)
+
+- **Description:** Designed algorithms for the Gram-Schmidt orthogonalization process. Built a custom QR decomposition function and utilized it to construct a numerically stable linear system solver.
+- **Skills:** Gram-Schmidt orthogonalization, QR factorization, Numerical stability.
+
+### [Lab: Eigenvector Centrality](./Eigenvector_centrality.ipynb)
+
+- **Description:** Leveraged adjacency matrices and stochastic transition matrices to implement a foundational version of Google's PageRank algorithm, ranking web pages based on network topology.
+- **Skills:** Eigenvectors, PageRank algorithm, Network topology, Markov chains.
+
+### [Lab: Principal Component Analysis (PCA)](./Principal_component_analysis.ipynb)
+
+- **Description:** Performed dimensionality reduction on high-dimensional healthcare datasets. Constructed covariance matrices, calculated dominant eigenvectors, and projected data into 2D subspaces.
 - **Skills:** Dimensionality reduction, PCA, Data manipulation, Eigenvectors.
 
-### [Project 4: Least Squares & Eigenvector Centrality](./Least_squares_I.ipynb)
+### [Lab: SVD and Image Compression](./SVD_and_image_compression.ipynb)
 
-- **Description:** Developed linear regression models by solving normal equations to find the line of best fit for scattered datasets. Leveraged adjacency and stochastic transition matrices to implement a foundational version of Google's PageRank algorithm.
-- **Skills:** Linear regression, Normal equations, PageRank algorithm, Network topology.
-
-### [Project 5: SVD and Image Compression](./SVD_and_image_compression.ipynb)
-
-- **Description:** Computed the Singular Value Decomposition (SVD) of matrices. Applied lower-rank approximations to compress high-resolution image data while evaluating mathematical trade-offs between memory footprint and image clarity.
-- **Skills:** Singular Value Decomposition (SVD), Image compression, Data visualization.
-
-## 📚 Labs and Implementations
----
-
-In addition to the main projects, this repository contains implementations in multiple formats:
-
-- **11 Jupyter Notebooks (`.ipynb`)**: Detailed walkthroughs featuring mathematical explanations, step-by-step logic, and Matplotlib visualizations.
-- **11 Python Scripts (`.py`)**: Clean, runnable Python source code containing the core algorithms and functions developed throughout the course.
-- **Foundational Python Exercises**: Introductory labs covering Python structures, control flow, functions, and vectorized operations using NumPy.
+- **Description:** Computed the Singular Value Decomposition (SVD) of matrices. Applied lower-rank approximations to compress high-resolution image data while retaining vital visual information.
+- **Skills:** Singular Value Decomposition (SVD), Image compression, Rank approximation.
 
 ## 🛠 Technical Skills Demonstrated
 ---
@@ -54,4 +75,4 @@ In addition to the main projects, this repository contains implementations in mu
 
 ---
 
-*Feel free to explore the source code for individual projects and assignments. If you are an employer or recruiter, I'd love to connect!*
+*Feel free to explore the source code for individual labs and assignments. If you are an employer or recruiter, I'd love to connect!*
